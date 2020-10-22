@@ -1,0 +1,57 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	color: rgb(108, 109, 110);
+}
+
+body {
+	background: rgb(238, 238, 238);
+}
+
+.header {
+	text-align: center;
+}
+
+.site-name {
+	font-size: 2.5rem;
+}
+
+.menu-bar {
+	margin-bottom: 1rem;
+}
+
+.sidebar {
+	padding: 1rem;
+	font-size: 1.3rem;
+	background: white;
+	margin-bottom: 1rem;
+}
+
+.sidebar ul {
+	padding: 4px;
+	margin: 0px;
+}
+
+.sidebar ul li {
+	list-style: none;
+}
+
+@media(max-width: 768px) {
+	.sidebar ul li {
+		display: inline-block;
+	}
+}
+
+.add-task-button {
+	position: fixed;
+	right: 1.5rem;
+	bottom: 1.5rem;
+}
+
+/* add-task.php css */
+.add {
+	background: white;
+	margin: auto;
+	margin-bottom: 1rem;
+	padding: 2rem;
+}
